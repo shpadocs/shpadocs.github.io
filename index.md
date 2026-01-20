@@ -3,11 +3,16 @@ layout: default
 title: "Home"
 ---
 
-# Welcome to My Site
+# Welcome!
 
-This is my GitHub Pages site using the Minimal theme.
+This is my personal website built with GitHub Pages and the Minimal theme.
 
-## Features
-- Clean and simple design
-- Responsive layout
-- Easy to customize
+## About Me
+Add your bio here.
+
+## Projects
+- [Project 1](link)
+- [Project 2](link)
+
+## Contact
+You can reach me at: email@example.com
