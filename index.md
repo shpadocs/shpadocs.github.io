@@ -9,7 +9,8 @@ Currently a PhD student at IMT School of Advanced Studies Lucca, Italy, supervis
 ## publications
 - [Cutting Out the Middle Man: A Game-Theoretic Analysis
 in Computability Logic of the Needham-Schroeder Protocol](assets/docs/CoLProtocols_ITASEC.pdf)
- Joint work with Cosimo Perini Brogi.
+
+  Joint work with Cosimo Perini Brogi.
 
   Cryptographic protocols constitute the cornerstone of secure communication in open
 distributed systems. The systematic formal verification of such protocols gained promi-
