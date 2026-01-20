@@ -15,4 +15,4 @@ Add your bio here.
 - [Project 2](link)
 
 ## Contact
-You can reach me at: email@example.com
+You can reach me at: stella.spadoni@imtlucca.it
