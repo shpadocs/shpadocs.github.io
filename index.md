@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 ## About Me
-Currently a PhD student at IMT School of Advanced Studies Lucca, Italy, supervised by Cosimo Perini Brogi. Previously a PhD student at the University of Bath in the mathematical foundations group, supervised by Alessio Guglielmi
+Currently a PhD student at IMT School of Advanced Studies Lucca, Italy, supervised by Cosimo Perini Brogi. Coming from a Bachelors' in Philosophy and an Masters' in Logic -- see [here](www.linkedin.com/in/stella-spadoni-152926290) for more.
 
 ## Publications
 - [Cutting Out the Middle Man: A Game-Theoretic Analysis
@@ -22,7 +22,8 @@ we demonstrate that the original vulnerability allows the environment to employ 
 cessful Copycat Strategy isomorphic to the standard Man-in-the-Middle attack (MitM).
 Conversely, we prove that the revised protocol including Lowe’s fix effectively breaks this
 adversarial advantage, guaranteeing security against the MitM.
-To be presented at [ITASEC 2026](https://itasec.it/) 
+
+To be presented at [ITASEC 2026](https://itasec.it/).
 
 
 ##Master thesis
