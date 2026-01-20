@@ -1,3 +1,16 @@
-title: "stella spadoni"  
-description: "i dont know what im doing" 
+# Site Settings
+title: "stella spadoni" 
+description: "y do u need a site for dis"  
+baseurl: ""  # Leave empty for user sites
+url: "https://shpadocs.github.io"  # Your GitHub Pages URL
+github_username: shpadocs  # Your GitHub username
+
+# Minimal Theme Settings
 theme: jekyll-theme-minimal
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
