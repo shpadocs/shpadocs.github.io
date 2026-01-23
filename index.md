@@ -4,7 +4,7 @@ title: "home"
 ---
 
 ## About me
-currently a PhD student at IMT School of Advanced Studies Lucca, Italy, supervised by Cosimo Perini Brogi. coming from a bachelor's in philosophy and an master's in logic -- see [here](https://www.linkedin.com/in/stella-spadoni-152926290/) for more.
+Currently a PhD student at IMT School of Advanced Studies Lucca, Italy, supervised by Cosimo Perini Brogi. Coming from a bachelor's in philosophy and an master's in logic -- see [here](https://www.linkedin.com/in/stella-spadoni-152926290/) for more.
 
 ## Publications
 - [Cutting Out the Middle Man: A Game-Theoretic Analysis
