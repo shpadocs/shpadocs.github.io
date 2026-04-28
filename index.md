@@ -8,7 +8,7 @@ Currently a PhD student at IMT School of Advanced Studies Lucca, Italy, supervis
 
 ## Publications
 - [Cutting Out the Middle Man: A Game-Theoretic Analysis
-in Computability Logic of the Needham-Schroeder Protocol](assets/docs/CoLProtocols_ITASEC.pdf)
+in Computability Logic of the Needham-Schroeder Protocol](https://ceur-ws.org/Vol-4198/paper57.pdf)
 
   Joint work with Cosimo Perini Brogi.
 
