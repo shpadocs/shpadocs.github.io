@@ -3,28 +3,27 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-/* This changes the background and text colors */
 body {
-    background-color: #050505; /* Pitch black */
-    color: #cc99ff; /* Soft dream-world lavender text */
-    font-family: 'VT323', monospace; /* A 16-bit RPG pixel font! */
-    font-size: 18px; /* Pixel fonts need to be a little bigger to read */
-    *, *:hover, a, a:hover, body, header, section {
-    cursor: url('../../medamaude.png'), auto !important;
+    background-color: #050505; 
+    color: #cc99ff; 
+    font-family: 'VT323', monospace; 
+    font-size: 18px; 
 }
 
-/* This changes the color of your links */
 a {
-    color: #ff3366; /* Neon pink/red links */
+    color: #ff3366; 
 }
 
-/* This changes the main title text */
 h1, h2, h3 {
-    color: #ffffff; /* White headers */
+    color: #ffffff; 
 }
 
-/* Make the white container blend into the darkness */
 .wrapper {
     background-color: transparent;
     border: none;
+}
+
+/* Master cursor override for everything */
+*, *:hover, a, a:hover, body, header, section {
+    cursor: url('../../medamaude.png'), auto !important;
 }
