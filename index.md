@@ -13,15 +13,8 @@ in Computability Logic of the Needham-Schroeder Protocol](https://ceur-ws.org/Vo
   Joint work with Cosimo Perini Brogi.
 
   Cryptographic protocols constitute the cornerstone of secure communication in open
-distributed systems. The systematic formal verification of such protocols gained promi-
-nence following Gavin Lowe’s 1995 discovery of a structural flaw in the classical Needham-
-Schroeder Public Key protocol from 1978. This paper presents a novel formal analysis of
-such protocol through Computability Logic (CoL), a game-theoretic semantics and reason-
-ing system that models interaction between an honest agent and a hostile environment.
-By formalising the protocol’s execution as a game specified in the CoL fragment CL4,
-we demonstrate that the original vulnerability allows the environment to employ a suc-
-cessful Copycat Strategy isomorphic to the standard Man-in-the-Middle attack (MitM).
-Conversely, we prove that the revised protocol including Lowe’s fix effectively breaks this
+distributed systems. The systematic formal verification of such protocols gained prominence following Gavin Lowe’s 1995 discovery of a structural flaw in the classical Needham-Schroeder Public Key protocol from 1978. This paper presents a novel formal analysis of
+such protocol through Computability Logic (CoL), a game-theoretic semantics and reasoning system that models interaction between an honest agent and a hostile environment. By formalising the protocol’s execution as a game specified in the CoL fragment CL4, we demonstrate that the original vulnerability allows the environment to employ a successful Copycat Strategy isomorphic to the standard Man-in-the-Middle attack (MitM). Conversely, we prove that the revised protocol including Lowe’s fix effectively breaks this
 adversarial advantage, guaranteeing security against the MitM.
 
   Presented at [ITASEC-SERICS 2026 - Joint National Conference on CyberSecurity](https://itasec.it/).
