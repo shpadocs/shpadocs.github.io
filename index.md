@@ -19,20 +19,35 @@ adversarial advantage, guaranteeing security against the MitM.
 
   Presented at [ITASEC-SERICS 2026 - Joint National Conference on CyberSecurity](https://itasec.it/).
 
-<table style="width: 100%; border: 2px solid #ffffff; font-family: 'VT323', monospace; text-align: left; background-color: #111;">
-  <tr>
-    <th style="border-bottom: 2px solid #fff; padding: 10px;">> Machine (A, B) </th>
-    <th style="border-bottom: 2px solid #fff; padding: 10px;">> Environment (MitM)</th>
-  </tr>
-  <tr>
-    <td style="padding: 10px; color: #cc99ff;">Action: Initialise Protocol</td>
-    <td style="padding: 10px; color: #ff3366;">Action: Copycat Strategy</td>
-  </tr>
-  <tr>
-    <td style="padding: 10px; color: #cc99ff;">Status: Honest</td>
-    <td style="padding: 10px; color: #ff3366;">Status: Hostile</td>
-  </tr>
-</table>
+<div style="border: 4px double #cccccc; background-color: #111111; padding: 15px; font-family: 'VT323', monospace; margin: 20px 0; border-radius: 5px;">
+  
+  <div style="border-bottom: 2px dashed #444444; padding-bottom: 10px; margin-bottom: 10px; color: #ffffff; min-height: 25px;">
+    <strong>BATTLE LOG:</strong> <span id="battle-text" style="color: #ffffaa;">A hostile ENVIRONMENT appeared!</span>
+  </div>
+
+  <table style="width: 100%; text-align: left; border-collapse: collapse;">
+    <tr>
+      <th style="padding: 5px; color: #cc99ff;">[ Machine (A, B) ]</th>
+      <th style="padding: 5px; color: #ff3366;">[ Environment (MitM) ]</th>
+    </tr>
+    <tr>
+      <td style="padding: 5px;">
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> A initialises Needham-Schroeder Protocol...'">> Initialize Protocol</span>
+      </td>
+      <td style="padding: 5px;">
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> I uses Copycat Strategy! It is super effective!'">> Copycat Strategy</span>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 5px;">
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> B applies Lowe&apos;s Fix! Adversarial advantage broken.'">> Apply Lowe's Fix</span>
+      </td>
+      <td style="padding: 5px;">
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> I attempts attack... Blocked by Lowe&apos;s Fix!'">> Intercept</span>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Master's thesis
 - [The Fertile Steppe: Computability Logic and the decidability of one of its fragments](https://arxiv.org/pdf/2503.05826)
