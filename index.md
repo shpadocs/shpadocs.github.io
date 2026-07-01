@@ -19,31 +19,32 @@ adversarial advantage, guaranteeing security against the MitM.
 
   Presented at [ITASEC-SERICS 2026 - Joint National Conference on CyberSecurity](https://itasec.it/).
 
-<div style="border: 4px double #cccccc; background-color: #111111; padding: 15px; font-family: 'VT323', monospace; margin: 20px 0; border-radius: 5px;">
+<div style="border: 4px solid #ffffff; background-color: #111111; padding: 15px; font-family: 'VT323', monospace; margin: 20px 0; border-radius: 15px;">
   
   <div style="border-bottom: 2px dashed #444444; padding-bottom: 10px; margin-bottom: 10px; color: #ffffff; min-height: 25px;">
-    <a href="[https://www.youtube.com/watch?v=EfdYDE7PfmE&list=RDEfdYDE7PfmE&start_radio=1]" target="_blank" style="color: #ffffff; text-decoration: underline; cursor: pointer;"><strong>BATTLE LOG:</strong></a> <span id="battle-text" style="color: #ffffaa;">A hostile Environment appeared!</span>
+    <a href="https://www.youtube.com/watch?v=TKvjEQXKeec" target="_blank" style="color: #ffffff; text-decoration: underline; cursor: pointer;"><strong>BATTLE LOG:</strong></a> 
+    <span id="battle-text" style="color: #ffffaa;">You confront the hostile ENVIRONMENT!</span>
   </div>
 
   <table style="width: 100%; text-align: left; border-collapse: collapse;">
     <tr>
-      <th style="padding: 5px; color: #cc99ff;">[ Machine (A, B) ]</th>
-      <th style="padding: 5px; color: #ff3366;">[ Environment (MitM) ]</th>
+      <th style="padding: 5px; color: #cc99ff;">[ AGENT ]</th>
+      <th style="padding: 5px; color: #ff3366;">[ ENVIRONMENT (MitM) ]</th>
     </tr>
     <tr>
       <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> A initialises Needham-Schroeder Protocol...'">> Initialise Protocol</span>
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> Agent tries PSI Protocol Ω!'">> Initialize Protocol</span>
       </td>
       <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> I uses Copycat Strategy! It is super effective!'">> Copycat Strategy</span>
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> You cannot grasp the true form of the Environment&apos;s attack!'">> Copycat Strategy</span>
       </td>
     </tr>
     <tr>
       <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> B applies Lowe&apos;s Fix! Adversarial advantage broken.'">> Apply Lowe's Fix</span>
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerHTML='<strong style=&quot;color: #ffaa00;&quot;>SMAAAASH!!</strong> Agent applies Lowe&apos;s Fix! Adversarial advantage broken!'">> Apply Lowe's Fix</span>
       </td>
       <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> I attempts attack... Blocked by Lowe&apos;s Fix!'">> Intercept</span>
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> Environment is feeling a little strange... intercept failed!'">> Intercept</span>
       </td>
     </tr>
   </table>
