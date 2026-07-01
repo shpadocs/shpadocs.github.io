@@ -31,4 +31,21 @@ adversarial advantage, guaranteeing security against the MitM.
 - "On protocol security via computability logic", [Cosimo Perini Brogi](https://logicosimo.gitlab.io/), S. Spadoni, [R. De Nicola](https://scholar.google.com/citations?user=Meb6JFkAAAAJ&hl=en). Presented at the Logic Colloquium 2026 (in conjunction with the British Logic Colloquium 2026), 29 June - 3 July 2026, Swansea University, Wales, UK;
 - "Cutting Out the Middle Man: A Game-Theoretic Analysis in Computability Logic of the Needham-Schroeder Protocol", [Cosimo Perini Brogi](https://logicosimo.gitlab.io/), S. Spadoni. Presented at ITASEC-SERICS 2026 - Joint National Conference on CyberSecurity, 9 – 13 February 2026, Cagliari, Facoltà di Ingegneria e Architettura, Piazza D’Armi, Sardinia, Italy.
 
+<br><br><br>
+<hr>
+<div style="text-align: center;">
+  <span id="light-switch" style="font-size: 30px; cursor: pointer;">💡</span>
+  <p style="font-size: 14px;">(Don't turn off the lights)</p>
+</div>
 
+<script>
+document.getElementById("light-switch").addEventListener("click", function() {
+    // There is a 50% chance Uboa appears!
+    if (Math.random() < 0.5) { 
+        document.body.style.backgroundColor = "white"; // Flashes white
+        document.body.innerHTML = "<div style='text-align:center; margin-top:20%; font-family:sans-serif;'><h1>UBOA</h1><p>You shouldn't have done that.</p></div>";
+    } else {
+        document.body.style.backgroundColor = "#222"; // Just makes the room slightly darker
+    }
+});
+</script>
