@@ -23,7 +23,7 @@ adversarial advantage, guaranteeing security against the MitM.
   
   <div style="border-bottom: 2px dashed #444444; padding-bottom: 10px; margin-bottom: 10px; color: #ffffff; min-height: 25px;">
     <a href="https://www.youtube.com/watch?v=TKvjEQXKeec" target="_blank" style="color: #ffffff; text-decoration: underline; cursor: pointer;"><strong>BATTLE LOG:</strong></a> 
-    <span id="battle-text" style="color: #ffffaa;">You confront the hostile ENVIRONMENT!</span>
+    <span id="battle-text" style="color: #ffffaa;">A hostile Environment appeared!</span>
   </div>
 
   <table style="width: 100%; text-align: left; border-collapse: collapse;">
