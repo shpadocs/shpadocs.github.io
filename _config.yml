@@ -7,7 +7,7 @@ github_username: shpadocs  # Your GitHub username
 
 # Minimal Theme Settings
 theme: jekyll-theme-minimal
-
+logo: /logo.jpg
 
 # Build Settings
 markdown: kramdown
