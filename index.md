@@ -3,7 +3,7 @@ layout: default
 title: "home"
 ---
 
-## About me
+## About me ![Madotsuki Walking](/madotsuki.gif)
 Currently a PhD student at IMT School of Advanced Studies Lucca, Italy, supervised by [Cosimo Perini Brogi](https://logicosimo.gitlab.io/). Coming from a bachelor's in Philosophy and a master's in Logic -- see [here](https://www.linkedin.com/in/stella-spadoni-152926290/) for more.
 
 ## Publications
