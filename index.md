@@ -3,7 +3,7 @@ layout: default
 title: "home"
 ---
 
-## About me <img src="/assets/madotsuki.gif" style="height: 35px; vertical-align: middle; margin-left: 10px; image-rendering: pixelated;">
+## About me <img src="/madotsuki.gif" style="height: 35px; vertical-align: middle; margin-left: 10px; image-rendering: pixelated;">
 Currently a PhD student at [IMT School for Advanced Studies Lucca](https://www.imtlucca.it/en/homepage), Italy, supervised by [Cosimo Perini Brogi](https://logicosimo.gitlab.io/). Coming from a bachelor's in Philosophy and a master's in Logic -- see [here](https://www.linkedin.com/in/stella-spadoni-152926290/) for more.
 
 ## Publications
