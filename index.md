@@ -90,3 +90,19 @@ document.getElementById("light-switch").addEventListener("click", function() {
 console.log("%c[SYSTEM ACCESS GRANTED]", "color: #ff3366; font-size: 16px; font-weight: bold; font-family: monospace;");
 console.log("%cWelcome to the Nexus. If you're reading this, you either know your way around DevTools or you're lost. Feel free to check out my GitHub repos for the raw code.", "color: #cc99ff; font-family: monospace;");
 </script>
+
+<img id="sidebar-gif" src="/interface-umami.gif" alt="umami GIF" style="display: none; max-width: 100%; margin-top: 25px; image-rendering: pixelated;">
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // This finds the theme's sidebar (header) and our hidden GIF
+    var sidebar = document.querySelector("header");
+    var gif = document.getElementById("sidebar-gif");
+    
+    // This moves the GIF into the sidebar right under the links and makes it visible!
+    if (sidebar && gif) {
+        gif.style.display = "block"; 
+        sidebar.appendChild(gif); 
+    }
+});
+</script>
