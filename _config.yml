@@ -4,10 +4,10 @@ description: "You can reach me at stella.spadoni[0x40]imtlucca.it"
 baseurl: ""  # Leave empty for user sites
 url: "https://shpadocs.github.io"  # Your GitHub Pages URL
 github_username: shpadocs  # Your GitHub username
-
+logo: /logo.jpg
 # Minimal Theme Settings
 theme: jekyll-theme-minimal
-logo: /logo.jpg
+
 
 # Build Settings
 markdown: kramdown
