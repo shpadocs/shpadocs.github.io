@@ -67,3 +67,9 @@ document.getElementById("light-switch").addEventListener("click", function() {
     }
 });
 </script>
+
+<script>
+// This only shows up in the browser's developer console!
+console.log("%c[SYSTEM ACCESS GRANTED]", "color: #ff3366; font-size: 16px; font-weight: bold; font-family: monospace;");
+console.log("%cWelcome to the Nexus. If you're reading this, you either know your way around DevTools or you're lost. Feel free to check out my GitHub repos for the raw code.", "color: #cc99ff; font-family: monospace;");
+</script>
