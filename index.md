@@ -22,7 +22,7 @@ adversarial advantage, guaranteeing security against the MitM.
 <div style="border: 4px double #cccccc; background-color: #111111; padding: 15px; font-family: 'VT323', monospace; margin: 20px 0; border-radius: 5px;">
   
   <div style="border-bottom: 2px dashed #444444; padding-bottom: 10px; margin-bottom: 10px; color: #ffffff; min-height: 25px;">
-    <strong>BATTLE LOG:</strong> <span id="battle-text" style="color: #ffffaa;">A hostile Environment appeared!</span>
+    <a href="[https://www.youtube.com/watch?v=EfdYDE7PfmE&list=RDEfdYDE7PfmE&start_radio=1]" target="_blank" style="color: #ffffff; text-decoration: underline; cursor: pointer;"><strong>BATTLE LOG:</strong></a> <span id="battle-text" style="color: #ffffaa;">A hostile Environment appeared!</span>
   </div>
 
   <table style="width: 100%; text-align: left; border-collapse: collapse;">
@@ -32,7 +32,7 @@ adversarial advantage, guaranteeing security against the MitM.
     </tr>
     <tr>
       <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> A initialises Needham-Schroeder Protocol...'">> Initialize Protocol</span>
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> A initialises Needham-Schroeder Protocol...'">> Initialise Protocol</span>
       </td>
       <td style="padding: 5px;">
         <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> I uses Copycat Strategy! It is super effective!'">> Copycat Strategy</span>
