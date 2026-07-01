@@ -48,21 +48,39 @@ adversarial advantage, guaranteeing security against the MitM.
 <button id="wake-up" style="position: fixed; bottom: 20px; right: 20px; z-index: 100; background-color: #050505; border: 2px solid #ff3366; color: #ff3366; font-family: 'VT323', monospace; font-size: 18px; padding: 10px 15px; cursor: pointer;">Pinch Cheek</button>
 
 <script>
+// We create a tiny memory to track if you are awake or dreaming
+let isAwake = false;
+
 document.getElementById("wake-up").addEventListener("click", function() {
-    // "Waking up" snaps the background to white and text to pure black
-    document.body.style.backgroundColor = "#ffffff";
-    document.body.style.color = "#000000"; 
-    
-    // Keeps your Yume Nikki font and locks it at 18px!
-    document.body.style.fontFamily = "'VT323', monospace";
-    document.body.style.fontSize = "18px";
-    
-    // Changes the text and look of the button so you know you're awake
-    this.innerText = "You are awake.";
-    this.style.border = "1px solid #cccccc";
-    this.style.color = "#888888";
-    this.style.backgroundColor = "#eeeeee";
-    this.style.cursor = "default";
+    if (!isAwake) {
+        // --- WAKING UP ---
+        document.body.style.backgroundColor = "#ffffff";
+        document.body.style.color = "#000000"; 
+        
+        // Keeps your Yume Nikki font and locks it at 18px!
+        document.body.style.fontFamily = "'VT323', monospace";
+        document.body.style.fontSize = "18px";
+        
+        // Changes the button to the "Awake" status
+        this.innerText = "Go to sleep.";
+        this.style.border = "1px solid #cccccc";
+        this.style.color = "#888888";
+        this.style.backgroundColor = "#eeeeee";
+        
+        isAwake = true; // Updates the memory
+    } else {
+        // --- GOING BACK TO SLEEP (Entering the Dream) ---
+        document.body.style.backgroundColor = "#050505"; // Back to pitch black
+        document.body.style.color = "#cc99ff"; // Back to lavender
+        
+        // Restores the button's Yume Nikki aesthetic
+        this.innerText = "Pinch Cheek";
+        this.style.border = "2px solid #ff3366";
+        this.style.color = "#ff3366";
+        this.style.backgroundColor = "#050505";
+        
+        isAwake = false; // Updates the memory
+    }
 });
 </script>
 
