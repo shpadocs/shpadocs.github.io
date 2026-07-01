@@ -49,10 +49,13 @@ adversarial advantage, guaranteeing security against the MitM.
 
 <script>
 document.getElementById("wake-up").addEventListener("click", function() {
-    // "Waking up" snaps the background and text back to normal
+    // "Waking up" snaps the background to white and text to pure black
     document.body.style.backgroundColor = "#ffffff";
-    document.body.style.color = "#333333";
-    document.body.style.fontFamily = "sans-serif";
+    document.body.style.color = "#000000"; 
+    
+    // Keeps your Yume Nikki font and locks it at 18px!
+    document.body.style.fontFamily = "'VT323', monospace";
+    document.body.style.fontSize = "18px";
     
     // Changes the text and look of the button so you know you're awake
     this.innerText = "You are awake.";
