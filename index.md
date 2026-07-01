@@ -10,13 +10,12 @@ document.getElementById("stoplight").addEventListener("click", function() {
     var gif = document.getElementById("sidebar-gif");
     
     if (!isFrozen) {
-        // Freeze: Change the source to a static PNG version of the GIF
-        // (You will need to upload a static frame named 'sleep_static.png')
+        
         gif.src = "/assets/sleep_static.png";
-        document.body.style.filter = "sepia(50%) hue-rotate(-30deg)"; // Adds an eerie red tint to the screen!
+        document.body.style.filter = "sepia(50%) hue-rotate(-30deg)"; 
         isFrozen = true;
     } else {
-        // Unfreeze: Restore the animated GIF and normal colors
+        
         gif.src = "/assets/sleep.gif";
         document.body.style.filter = "none";
         isFrozen = false;
@@ -69,42 +68,53 @@ adversarial advantage, guaranteeing security against the MitM.
 <button id="wake-up" style="position: fixed; bottom: 20px; right: 20px; z-index: 100; background-color: #050505; border: 2px solid #ff3366; color: #ff3366; font-family: 'VT323', monospace; font-size: 18px; padding: 10px 15px; cursor: pointer;">Pinch Cheek</button>
 
 <script>
-// We create a tiny memory to track if you are awake or dreaming
 let isAwake = false;
 
 document.getElementById("wake-up").addEventListener("click", function() {
+    
+    let headers = document.querySelectorAll("h1, h2, h3");
+
     if (!isAwake) {
-        // --- WAKING UP ---
-        document.body.style.backgroundColor = "#ffffff";
+        
+        document.body.style.backgroundColor = "#fafafa"; 
         document.body.style.color = "#000000"; 
         
-        // Keeps your Yume Nikki font and locks it at 18px!
+        
+        headers.forEach(function(header) {
+            header.style.color = "#000000";
+        });
+        
+        
         document.body.style.fontFamily = "'VT323', monospace";
         document.body.style.fontSize = "18px";
         
-        // Changes the button to the "Awake" status
+        
         this.innerText = "Go to sleep.";
         this.style.border = "1px solid #cccccc";
         this.style.color = "#888888";
         this.style.backgroundColor = "#eeeeee";
         
-        isAwake = true; // Updates the memory
+        isAwake = true; 
     } else {
-        // --- GOING BACK TO SLEEP (Entering the Dream) ---
-        document.body.style.backgroundColor = "#050505"; // Back to pitch black
-        document.body.style.color = "#cc99ff"; // Back to lavender
         
-        // Restores the button's Yume Nikki aesthetic
+        document.body.style.backgroundColor = "#050505"; 
+        document.body.style.color = "#cc99ff"; 
+        
+        
+        headers.forEach(function(header) {
+            header.style.color = "#ffffff";
+        });
+        
+        
         this.innerText = "Pinch Cheek";
         this.style.border = "2px solid #ff3366";
         this.style.color = "#ff3366";
         this.style.backgroundColor = "#050505";
         
-        isAwake = false; // Updates the memory
+        isAwake = false; 
     }
 });
 </script>
-
 <br><br><br>
 <hr>
 <div style="text-align: center;">
@@ -125,7 +135,7 @@ document.getElementById("light-switch").addEventListener("click", function() {
 </script>
 
 <script>
-// This only shows up in the browser's developer console!
+
 console.log("%c[SYSTEM ACCESS GRANTED]", "color: #ff3366; font-size: 16px; font-weight: bold; font-family: monospace;");
 console.log("%cWelcome to the Nexus. If you're reading this, you either know your way around DevTools or you're lost. Feel free to check out my GitHub repos for the raw code.", "color: #cc99ff; font-family: monospace;");
 </script>
@@ -134,11 +144,11 @@ console.log("%cWelcome to the Nexus. If you're reading this, you either know you
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    // This finds the theme's sidebar (header) and our hidden GIF
+    
     var sidebar = document.querySelector("header");
     var gif = document.getElementById("sidebar-gif");
     
-    // This moves the GIF into the sidebar right under the links and makes it visible!
+    
     if (sidebar && gif) {
         gif.style.display = "block"; 
         sidebar.appendChild(gif); 
