@@ -31,6 +31,24 @@ adversarial advantage, guaranteeing security against the MitM.
 - "On protocol security via computability logic", [Cosimo Perini Brogi](https://logicosimo.gitlab.io/), S. Spadoni, [R. De Nicola](https://scholar.google.com/citations?user=Meb6JFkAAAAJ&hl=en). Presented at the Logic Colloquium 2026 (in conjunction with the British Logic Colloquium 2026), 29 June - 3 July 2026, Swansea University, Wales, UK;
 - "Cutting Out the Middle Man: A Game-Theoretic Analysis in Computability Logic of the Needham-Schroeder Protocol", [Cosimo Perini Brogi](https://logicosimo.gitlab.io/), S. Spadoni. Presented at ITASEC-SERICS 2026 - Joint National Conference on CyberSecurity, 9 – 13 February 2026, Cagliari, Facoltà di Ingegneria e Architettura, Piazza D’Armi, Sardinia, Italy.
 
+<button id="wake-up" style="position: fixed; bottom: 20px; right: 20px; z-index: 100; background-color: #050505; border: 2px solid #ff3366; color: #ff3366; font-family: 'VT323', monospace; font-size: 18px; padding: 10px 15px; cursor: pointer;">Pinch Cheek</button>
+
+<script>
+document.getElementById("wake-up").addEventListener("click", function() {
+    // "Waking up" snaps the background and text back to normal
+    document.body.style.backgroundColor = "#ffffff";
+    document.body.style.color = "#333333";
+    document.body.style.fontFamily = "sans-serif";
+    
+    // Changes the text and look of the button so you know you're awake
+    this.innerText = "You are awake.";
+    this.style.border = "1px solid #cccccc";
+    this.style.color = "#888888";
+    this.style.backgroundColor = "#eeeeee";
+    this.style.cursor = "default";
+});
+</script>
+
 <br><br><br>
 <hr>
 <div style="text-align: center;">
