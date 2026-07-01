@@ -24,7 +24,7 @@ cessful Copycat Strategy isomorphic to the standard Man-in-the-Middle attack (Mi
 Conversely, we prove that the revised protocol including Lowe’s fix effectively breaks this
 adversarial advantage, guaranteeing security against the MitM.
 
-  To be presented at [ITASEC 2026](https://itasec.it/).
+  Presented at [ITASEC 2026](https://itasec.it/).
 
 
 ## Master's thesis
