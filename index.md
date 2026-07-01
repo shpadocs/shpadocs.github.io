@@ -19,36 +19,6 @@ adversarial advantage, guaranteeing security against the MitM.
 
   Presented at [ITASEC-SERICS 2026 - Joint National Conference on CyberSecurity](https://itasec.it/).
 
-<div style="border: 4px solid #ffffff; background-color: #111111; padding: 15px; font-family: 'VT323', monospace; margin: 20px 0; border-radius: 15px;">
-  
-  <div style="border-bottom: 2px dashed #444444; padding-bottom: 10px; margin-bottom: 10px; color: #ffffff; min-height: 25px;">
-    <a href="https://www.youtube.com/watch?v=TKvjEQXKeec" target="_blank" style="color: #ffffff; text-decoration: underline; cursor: pointer;"><strong>BATTLE LOG:</strong></a> 
-    <span id="battle-text" style="color: #ffffaa;">A hostile Environment appeared!</span>
-  </div>
-
-  <table style="width: 100%; text-align: left; border-collapse: collapse;">
-    <tr>
-      <th style="padding: 5px; color: #cc99ff;">Machine (A, B)</th>
-      <th style="padding: 5px; color: #ff3366;">Environment (I) </th>
-    </tr>
-    <tr>
-      <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> A initialises Needham-Schroeder protocol... ' ">> Initialise Protocol</span>
-      </td>
-      <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> I uses Copycat Strategy! It is super effective!'">> Copycat Strategy</span>
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerHTML='<strong style=&quot;color: #ffaa00;&quot;'> B applies Lowe&apos;s Fix! Adversarial advantage broken!'">> Apply Lowe's Fix</span>
-      </td>
-      <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> I is lured into its own failure!'">> Intercept</span>
-      </td>
-    </tr>
-  </table>
-</div>
 
 ## Master's thesis
 - [The Fertile Steppe: Computability Logic and the decidability of one of its fragments](https://arxiv.org/pdf/2503.05826)
