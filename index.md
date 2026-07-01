@@ -19,6 +19,20 @@ adversarial advantage, guaranteeing security against the MitM.
 
   Presented at [ITASEC-SERICS 2026 - Joint National Conference on CyberSecurity](https://itasec.it/).
 
+<table style="width: 100%; border: 2px solid #ffffff; font-family: 'VT323', monospace; text-align: left; background-color: #111;">
+  <tr>
+    <th style="border-bottom: 2px solid #fff; padding: 10px;">> Machine (A, B) </th>
+    <th style="border-bottom: 2px solid #fff; padding: 10px;">> Environment (MitM)</th>
+  </tr>
+  <tr>
+    <td style="padding: 10px; color: #cc99ff;">Action: Initialise Protocol</td>
+    <td style="padding: 10px; color: #ff3366;">Action: Copycat Strategy</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; color: #cc99ff;">Status: Honest</td>
+    <td style="padding: 10px; color: #ff3366;">Status: Hostile</td>
+  </tr>
+</table>
 
 ## Master's thesis
 - [The Fertile Steppe: Computability Logic and the decidability of one of its fragments](https://arxiv.org/pdf/2503.05826)
