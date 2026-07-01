@@ -33,18 +33,18 @@ adversarial advantage, guaranteeing security against the MitM.
     </tr>
     <tr>
       <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> Agent tries PSI Protocol Ω!'">> Initialize Protocol</span>
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> A initialises Needham-Schroeder protocol... ' ">> Initialise Protocol</span>
       </td>
       <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> You cannot grasp the true form of the Environment&apos;s attack!'">> Copycat Strategy</span>
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> I uses Copycat Strategy! It is super effective!'">> Copycat Strategy</span>
       </td>
     </tr>
     <tr>
       <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerHTML='<strong style=&quot;color: #ffaa00;&quot;>SMAAAASH!!</strong> Agent applies Lowe&apos;s Fix! Adversarial advantage broken!'">> Apply Lowe's Fix</span>
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerHTML='<strong style=&quot;color: #ffaa00;&quot;'> B applies Lowe&apos;s Fix! Adversarial advantage broken!'">> Apply Lowe's Fix</span>
       </td>
       <td style="padding: 5px;">
-        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> Environment is feeling a little strange... intercept failed!'">> Intercept</span>
+        <span style="cursor: pointer; color: #ffffff;" onmouseover="document.getElementById('battle-text').innerText='> I is lured into its own failure!'">> Intercept</span>
       </td>
     </tr>
   </table>
