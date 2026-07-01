@@ -28,8 +28,8 @@ adversarial advantage, guaranteeing security against the MitM.
 
   <table style="width: 100%; text-align: left; border-collapse: collapse;">
     <tr>
-      <th style="padding: 5px; color: #cc99ff;">[ AGENT ]</th>
-      <th style="padding: 5px; color: #ff3366;">[ ENVIRONMENT (MitM) ]</th>
+      <th style="padding: 5px; color: #cc99ff;">Machine (A, B)</th>
+      <th style="padding: 5px; color: #ff3366;">Environment (I) </th>
     </tr>
     <tr>
       <td style="padding: 5px;">
