@@ -2,6 +2,27 @@
 layout: default
 title: "home"
 ---
+<span id="stoplight" style="font-size: 24px; cursor: pointer;" title="Use Stoplight Effect">🚦</span>
+
+<script>
+let isFrozen = false;
+document.getElementById("stoplight").addEventListener("click", function() {
+    var gif = document.getElementById("sidebar-gif");
+    
+    if (!isFrozen) {
+        // Freeze: Change the source to a static PNG version of the GIF
+        // (You will need to upload a static frame named 'sleep_static.png')
+        gif.src = "/assets/sleep_static.png";
+        document.body.style.filter = "sepia(50%) hue-rotate(-30deg)"; // Adds an eerie red tint to the screen!
+        isFrozen = true;
+    } else {
+        // Unfreeze: Restore the animated GIF and normal colors
+        gif.src = "/assets/sleep.gif";
+        document.body.style.filter = "none";
+        isFrozen = false;
+    }
+});
+</script>
 
 ## About me ![Madotsuki Walking](/madotsuki.gif)
 Currently a PhD student at [IMT School for Advanced Studies Lucca](https://www.imtlucca.it/en/homepage), Italy, supervised by [Cosimo Perini Brogi](https://logicosimo.gitlab.io/). Coming from a bachelor's in Philosophy and a master's in Logic -- see [here](https://www.linkedin.com/in/stella-spadoni-152926290/) for more.
