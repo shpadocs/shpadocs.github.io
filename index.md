@@ -6,6 +6,36 @@ title: "Home"
 ## About me ![Madotsuki spinning](/madotsuki.gif)
 Currently a PhD student at [IMT School for Advanced Studies Lucca](https://www.imtlucca.it/en/homepage), Italy, supervised by [Cosimo Perini Brogi](https://logicosimo.gitlab.io/). Coming from a bachelor's in Philosophy and a master's in Logic -- see [here](https://www.linkedin.com/in/stella-spadoni-152926290/) for more.
 
+<div id="save-screen" style="font-family: 'VT323', monospace; margin: 30px 0;">
+    
+    <h2 id="save-title" style="color: #ffffff; border-bottom: 2px dashed #444444; padding-bottom: 10px; margin-bottom: 15px;">💾 CHOOSE SAVE SLOT</h2>
+    
+    <div class="save-slot" style="border: 2px solid #cc99ff; background-color: #050505; padding: 15px; margin-bottom: 12px; border-radius: 4px; box-shadow: 4px 4px 0px #220033;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span class="save-header" style="color: #ff3366; font-size: 22px; font-weight: bold;">FILE 01: MSc COMPUTER SCIENCE</span>
+            <span style="color: #55ff55; font-size: 16px; border: 1px solid #55ff55; padding: 2px 6px; border-radius: 3px;">LOAD COMPLETED</span>
+        </div>
+        <div class="save-details" style="color: #aaaaaa; margin-top: 10px; font-size: 18px; line-height: 1.4;">
+            • <strong style="color: #ffffff;" class="save-label">LOCATION:</strong> Your University Name<br>
+            • <strong style="color: #ffffff;" class="save-label">PLAY TIME:</strong> 2024 - 2026<br>
+            • <strong style="color: #ffffff;" class="save-label">CURRENT OBJECTIVE:</strong> Game Theory & Cryptographic Protocols
+        </div>
+    </div>
+
+    <div class="save-slot" style="border: 2px solid #cc99ff; background-color: #050505; padding: 15px; margin-bottom: 12px; border-radius: 4px; box-shadow: 4px 4px 0px #220033;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span class="save-header" style="color: #ff3366; font-size: 22px; font-weight: bold;">FILE 02: BSc CYBERSECURITY</span>
+            <span style="color: #55ff55; font-size: 16px; border: 1px solid #55ff55; padding: 2px 6px; border-radius: 3px;">LOAD COMPLETED</span>
+        </div>
+        <div class="save-details" style="color: #aaaaaa; margin-top: 10px; font-size: 18px; line-height: 1.4;">
+            • <strong style="color: #ffffff;" class="save-label">LOCATION:</strong> Your Previous University<br>
+            • <strong style="color: #ffffff;" class="save-label">PLAY TIME:</strong> 2020 - 2024<br>
+            • <strong style="color: #ffffff;" class="save-label">CURRENT OBJECTIVE:</strong> Network Security Foundations & Computability Logic
+        </div>
+    </div>
+
+</div>
+
 ## Publications
 - [Cutting Out the Middle Man: A Game-Theoretic Analysis
 in Computability Logic of the Needham-Schroeder Protocol](https://ceur-ws.org/Vol-4198/paper57.pdf)
