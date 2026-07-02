@@ -92,50 +92,89 @@ document.getElementById("wake-up").addEventListener("click", function() {
     let saveHeaders = document.querySelectorAll(".save-header");
     let saveLabels = document.querySelectorAll(".save-label");
     let saveDetails = document.querySelectorAll(".save-details");
+    let saveStatuses = document.querySelectorAll(".save-status");
+
+    // CV System Terminal elements
+    let cvBox = document.getElementById("cv-box");
+    let cvTitle = document.getElementById("cv-title");
+    let cvText = document.getElementById("cv-text");
+    let cvButton = document.getElementById("cv-button");
+    let cvMetaLeft = document.getElementById("cv-meta-left");
+    let cvMetaRight = document.getElementById("cv-meta-right");
+    let cvStats = document.getElementById("cv-stats");
+    let cvStatRows = document.querySelectorAll(".cv-stat-row");
 
     if (!isAwake) {
-        // --- WAKING UP (LIGHT MODE) ---
-        document.body.style.backgroundColor = "#fafafa"; 
-        document.body.style.color = "#000000"; 
+        // --- WAKING UP (STARK / INDUSTRIAL / CINEMATIC LIGHT) ---
+        document.body.style.backgroundColor = "#e5e5e5"; // Slate/industrial off-white
+        document.body.style.color = "#111111"; 
         
-        headers.forEach(function(header) { header.style.color = "#000000"; });
-        if (saveTitle) { saveTitle.style.color = "#000000"; }
+        headers.forEach(function(header) { header.style.color = "#111111"; });
+        if (saveTitle) { saveTitle.style.color = "#111111"; }
         
-        // 1. Transform the Lore Box
+        // 1. Transform Lore Box
         if (loreBox) {
-            loreBox.style.backgroundColor = "#eeeeee";
-            loreBox.style.borderColor = "#888888";
-            loreBox.style.boxShadow = "5px 5px 0px #cccccc";
+            loreBox.style.backgroundColor = "#dddddd";
+            loreBox.style.borderColor = "#666666";
+            loreBox.style.boxShadow = "5px 5px 0px #bbbbbb";
         }
-        if (loreTitle) { loreTitle.style.color = "#000000"; }
-        loreSummaries.forEach(function(s) { s.style.color = "#b52243"; });
+        if (loreTitle) { loreTitle.style.color = "#111111"; }
+        loreSummaries.forEach(function(s) { s.style.color = "#8a1c32"; });
         loreContents.forEach(function(c) { 
             c.style.backgroundColor = "#ffffff";
-            c.style.color = "#333333";
-            c.querySelector("em").style.color = "#666666";
+            c.style.color = "#222222";
+            c.querySelector("em").style.color = "#555555";
         });
 
-        // 2. Transform the Save Slots
+        // 2. Transform Save Slots
         saveSlots.forEach(function(slot) {
-            slot.style.backgroundColor = "#eeeeee";
-            slot.style.borderColor = "#888888";
-            slot.style.boxShadow = "4px 4px 0px #cccccc";
+            slot.style.backgroundColor = "#dddddd";
+            slot.style.borderColor = "#666666";
+            slot.style.boxShadow = "4px 4px 0px #bbbbbb";
         });
-        saveHeaders.forEach(function(sh) { sh.style.color = "#b52243"; });
-        saveLabels.forEach(function(sl) { sl.style.color = "#000000"; });
-        saveDetails.forEach(function(sd) { sd.style.color = "#444444"; });
+        saveHeaders.forEach(function(sh) { sh.style.color = "#8a1c32"; });
+        saveLabels.forEach(function(sl) { sl.style.color = "#111111"; });
+        saveDetails.forEach(function(sd) { sd.style.color = "#333333"; });
+        saveStatuses.forEach(function(status) {
+            status.style.color = "#115511";
+            status.style.borderColor = "#115511";
+        });
 
-        // Button style changes
-        document.body.style.fontFamily = "'VT323', monospace";
-        document.body.style.fontSize = "18px";
+        // 3. Transform CV Terminal Box (Minimalist Cinematic/Clinical Layout)
+        if (cvBox) {
+            cvBox.style.backgroundColor = "#dddddd";
+            cvBox.style.borderColor = "#444444";
+            cvBox.style.boxShadow = "0 0 0 4px #dddddd, 6px 6px 0px #bbbbbb";
+        }
+        if (cvTitle) { cvTitle.style.color = "#111111"; }
+        if (cvText) { cvText.style.color = "#333333"; }
+        if (cvMetaLeft) { cvMetaLeft.style.color = "#777777"; }
+        if (cvMetaRight) { cvMetaRight.style.color = "#8a1c32"; }
+        if (cvStats) {
+            cvStats.style.backgroundColor = "#e0e0e0";
+            cvStats.style.borderColor = "#aaaaaa";
+            cvStats.style.color = "#111111";
+            cvStats.querySelector("div").style.color = "#444444";
+        }
+        cvStatRows.forEach(row => {
+            row.style.color = "#444444";
+            row.querySelector("span").style.color = "#111111";
+        });
+        if (cvButton) {
+            cvButton.style.backgroundColor = "#8a1c32"; // Deadpan muted red
+            cvButton.style.color = "#ffffff";
+            cvButton.style.borderColor = "#8a1c32";
+        }
+
+        // Main Button Changes
         this.innerText = "Go to sleep.";
-        this.style.border = "1px solid #cccccc";
-        this.style.color = "#888888";
-        this.style.backgroundColor = "#eeeeee";
+        this.style.border = "1px solid #aaaaaa";
+        this.style.color = "#555555";
+        this.style.backgroundColor = "#dddddd";
         
         isAwake = true;
     } else {
-        // --- GOING BACK TO SLEEP (DARK MODE) ---
+        // --- GOING BACK TO SLEEP (DARK SYSTEM / YUME NIKKI GLORY) ---
         document.body.style.backgroundColor = "#050505"; 
         document.body.style.color = "#cc99ff"; 
         
@@ -165,8 +204,37 @@ document.getElementById("wake-up").addEventListener("click", function() {
         saveHeaders.forEach(function(sh) { sh.style.color = "#ff3366"; });
         saveLabels.forEach(function(sl) { sl.style.color = "#ffffff"; });
         saveDetails.forEach(function(sd) { sd.style.color = "#aaaaaa"; });
+        saveStatuses.forEach(function(status) {
+            status.style.color = "#55ff55";
+            status.style.borderColor = "#55ff55";
+        });
 
-        // Button style changes
+        // 3. Restore CV Terminal Box
+        if (cvBox) {
+            cvBox.style.backgroundColor = "#000000";
+            cvBox.style.borderColor = "#ff3366";
+            cvBox.style.boxShadow = "0 0 0 4px #000000, 6px 6px 0px #220033";
+        }
+        if (cvTitle) { cvTitle.style.color = "#ffffff"; }
+        if (cvText) { cvText.style.color = "#aaaaaa"; }
+        if (cvMetaLeft) { cvMetaLeft.style.color = "#666666"; }
+        if (cvMetaRight) { cvMetaRight.style.color = "#ff3366"; }
+        if (cvStats) {
+            cvStats.style.backgroundColor = "#050505";
+            cvStats.style.borderColor = "#333333";
+            cvStats.querySelector("div").style.color = "#ffffaa";
+        }
+        cvStatRows.forEach(row => {
+            row.style.color = "#cc99ff";
+            row.querySelector("span").style.color = "#ffffff";
+        });
+        if (cvButton) {
+            cvButton.style.backgroundColor = "#000000";
+            cvButton.style.color = "#ff3366";
+            cvButton.style.borderColor = "#ff3366";
+        }
+
+        // Main Button Changes
         this.innerText = "Pinch Cheek";
         this.style.border = "2px solid #ff3366";
         this.style.color = "#ff3366";
@@ -176,7 +244,6 @@ document.getElementById("wake-up").addEventListener("click", function() {
     }
 });
 </script>
-
 <script>
 document.getElementById("light-switch").addEventListener("click", function() {
     // There is a 50% chance Uboa appears!
@@ -210,6 +277,42 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 </script>
+
+<div id="cv-box" style="border: 4px double #ff3366; background-color: #000000; padding: 20px; font-family: 'VT323', monospace; margin: 35px 0; border-radius: 0px; box-shadow: 0 0 0 4px #000000, 6px 6px 0px #220033; position: relative;">
+    
+    <div style="display: flex; justify-content: space-between; border-bottom: 2px solid #333333; padding-bottom: 8px; margin-bottom: 15px; font-size: 16px; letter-spacing: 1px;">
+        <span id="cv-meta-left" style="color: #666666;">SYS_REC // FILE_NO_0999</span>
+        <span id="cv-meta-right" style="color: #ff3366; animation: blink 1.5s infinite steps(1);">● ACTIVE_EXTRACTOR</span>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+        
+        <div id="cv-stats" style="border: 1px solid #333333; background: #050505; padding: 12px; min-width: 160px; font-size: 18px; line-height: 1.5;">
+            <div style="color: #ffffaa; border-bottom: 1px dashed #333333; padding-bottom: 4px; margin-bottom: 6px; font-weight: bold;">[ ITEM PROFILE ]</div>
+            <div class="cv-stat-row" style="color: #cc99ff;">CLASS: <span style="color: #ffffff; float: right;">LIFE_DATA</span></div>
+            <div class="cv-stat-row" style="color: #cc99ff;">SIZE: <span style="color: #ffffff; float: right;">244 KB</span></div>
+            <div class="cv-stat-row" style="color: #cc99ff;">THREAT: <span style="color: #55ff55; float: right;">0.00%</span></div>
+            <div class="cv-stat-row" style="color: #cc99ff;">WEIGHT: <span style="color: #ffffff; float: right;">0.00kg</span></div>
+        </div>
+
+        <div style="flex: 1; min-width: 250px;">
+            <h3 id="cv-title" style="color: #ffffff; margin: 0 0 10px 0; font-size: 24px; letter-spacing: 0.5px;">Spadoni.cv.pdf</h3>
+            <p id="cv-text" style="color: #aaaaaa; margin: 0 0 20px 0; font-size: 19px; line-height: 1.4; font-style: normal;">
+                A dense, static compilation of a person's attempts to organise computational logic. It contains no poetry, no answers and no music. It has travelled through several cold institutions. Extracting it to your local storage device will alter your current inventory space.
+            </p>
+        </div>
+    </div>
+
+    <div style="text-align: right; margin-top: 15px; border-top: 1px solid #222222; padding-top: 15px;">
+        <a href="assets/Curriculum_Vitae.pdf" download="Curriculum_Vitae.pdf" id="cv-button" style="display: inline-block; background-color: #000000; color: #ff3366; text-decoration: none; padding: 6px 16px; font-size: 22px; font-weight: bold; border: 2px solid #ff3366; cursor: pointer; transition: all 0.1s ease;">
+            ▶ DISCHARGE FILE_
+        </a>
+    </div>
+</div>
+
+<style>
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+</style>
 
 <div style="display: flex; justify-content: space-around; margin-top: 30px; font-family: 'VT323', monospace;">
     <a href="https://orcid.org/0009-0007-3169-4745" style="color: #cc99ff; text-decoration: none; text-align: center;">
