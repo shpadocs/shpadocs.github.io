@@ -121,3 +121,18 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 </script>
+
+<div style="display: flex; justify-content: space-around; margin-top: 30px; font-family: 'VT323', monospace;">
+    <a href="mailto:your.email@example.com" style="color: #cc99ff; text-decoration: none; text-align: center;">
+        <div style="font-size: 30px;">🚪</div>
+        [ EMAIL ]
+    </a>
+    <a href="YOUR_SCHOLAR_LINK" style="color: #cc99ff; text-decoration: none; text-align: center;">
+        <div style="font-size: 30px;">👁️</div>
+        [ SCHOLAR ]
+    </a>
+    <a href="YOUR_LINKEDIN_LINK" style="color: #cc99ff; text-decoration: none; text-align: center;">
+        <div style="font-size: 30px;">💼</div>
+        [ LINKEDIN ]
+    </a>
+</div>
