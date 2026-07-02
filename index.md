@@ -6,43 +6,6 @@ title: "Home"
 ## About me ![Madotsuki spinning](/madotsuki.gif)
 Currently a PhD student at [IMT School for Advanced Studies Lucca](https://www.imtlucca.it/en/homepage), Italy, supervised by [Cosimo Perini Brogi](https://logicosimo.gitlab.io/). Coming from a bachelor's in Philosophy and a master's in Logic -- see [here](https://www.linkedin.com/in/stella-spadoni-152926290/) for more.
 
-<div style="border: 2px solid #cc99ff; background-color: #050505; padding: 20px; font-family: 'VT323', monospace; margin: 20px 0; box-shadow: 5px 5px 0px #220033; border-radius: 4px;">
-    
-    <h2 style="color: #ff3366; margin-top: 0; text-shadow: 1px 1px #ffffff; border-bottom: 1px dashed #444444; padding-bottom: 10px;">👁️ CURRENT OBSESSIONS (LORE)</h2>
-    <p style="color: #aaaaaa; font-style: italic; margin-bottom: 20px;">> Inspecting the academic fragments scattered across the desk...</p>
-    
-    <details style="margin-bottom: 15px; cursor: pointer;">
-        <summary style="color: #ffffaa; font-size: 22px; outline: none;">
-            <strong>[ITEM 01] Game-Theoretic Cryptography</strong>
-        </summary>
-        <div style="padding: 12px; border-left: 3px solid #ff3366; margin-top: 8px; margin-left: 15px; color: #cc99ff; background: #111111;">
-            <em style="color: #ffffff;">"Mathematical paranoias."</em><br><br>
-            Trust is a finite resource. This research measures exactly how many lies a system can swallow before the entire reality of the protocol collapses.
-        </div>
-    </details>
-
-    <details style="margin-bottom: 15px; cursor: pointer;">
-        <summary style="color: #ffffaa; font-size: 22px; outline: none;">
-            <strong>[ITEM 02] Computability Logic (CoL)</strong>
-        </summary>
-        <div style="padding: 12px; border-left: 3px solid #ff3366; margin-top: 8px; margin-left: 15px; color: #cc99ff; background: #111111;">
-            <em style="color: #ffffff;">"The geometry of truth."</em><br><br>
-            A volcanic framework where logic is not a set of static facts, but a continuous, interactive game played against an environment that never sleeps.
-        </div>
-    </details>
-
-    <details style="margin-bottom: 5px; cursor: pointer;">
-        <summary style="color: #ffffaa; font-size: 22px; outline: none;">
-            <strong>[ITEM 03] Protocol Verification</strong>
-        </summary>
-        <div style="padding: 12px; border-left: 3px solid #ff3366; margin-top: 8px; margin-left: 15px; color: #cc99ff; background: #111111;">
-            <em style="color: #ffffff;">"Autopsies of digital conversations."</em><br><br>
-            Hunting for the ghost in the machine. It is the art of mathematically proving that the Man-in-the-Middle is completely blind to our secrets before they ever speak.
-        </div>
-    </details>
-
-</div>
-
 ## Publications
 - [Cutting Out the Middle Man: A Game-Theoretic Analysis
 in Computability Logic of the Needham-Schroeder Protocol](https://ceur-ws.org/Vol-4198/paper57.pdf)
