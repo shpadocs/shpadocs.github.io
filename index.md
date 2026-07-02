@@ -9,28 +9,39 @@ Currently a PhD student at [IMT School for Advanced Studies Lucca](https://www.i
 <div id="save-screen" style="font-family: 'VT323', monospace; margin: 30px 0;">
     
     <h2 id="save-title" style="color: #ffffff; border-bottom: 2px dashed #444444; padding-bottom: 10px; margin-bottom: 15px;">💾 CHOOSE SAVE SLOT</h2>
-    
     <div class="save-slot" style="border: 2px solid #cc99ff; background-color: #050505; padding: 15px; margin-bottom: 12px; border-radius: 4px; box-shadow: 4px 4px 0px #220033;">
         <div style="display: flex; justify-content: space-between; align-items: center;">
-            <span class="save-header" style="color: #ff3366; font-size: 22px; font-weight: bold;">FILE 01: MSc COMPUTER SCIENCE</span>
+            <span class="save-header" style="color: #ff3366; font-size: 22px; font-weight: bold;">FILE 03: PhD SYSTEMS SCIENCE (SOFTWARE QUALITY)</span>
             <span style="color: #55ff55; font-size: 16px; border: 1px solid #55ff55; padding: 2px 6px; border-radius: 3px;">LOAD COMPLETED</span>
         </div>
         <div class="save-details" style="color: #aaaaaa; margin-top: 10px; font-size: 18px; line-height: 1.4;">
-            • <strong style="color: #ffffff;" class="save-label">LOCATION:</strong> Your University Name<br>
-            • <strong style="color: #ffffff;" class="save-label">PLAY TIME:</strong> 2024 - 2026<br>
-            • <strong style="color: #ffffff;" class="save-label">CURRENT OBJECTIVE:</strong> Game Theory & Cryptographic Protocols
+            • <strong style="color: #ffffff;" class="save-label">LOCATION:</strong> IMT School for Advanced Studies Lucca <br>
+            • <strong style="color: #ffffff;" class="save-label">PLAY TIME:</strong> 2025 - 2028<br>
+            • <strong style="color: #ffffff;" class="save-label">LAST LOG:</strong> Ongoing.
+        </div>
+    </div>
+    
+    <div class="save-slot" style="border: 2px solid #cc99ff; background-color: #050505; padding: 15px; margin-bottom: 12px; border-radius: 4px; box-shadow: 4px 4px 0px #220033;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span class="save-header" style="color: #ff3366; font-size: 22px; font-weight: bold;">FILE 02: MSc LOGIC, PHILOSOPHY AND HISTORY OF SCIENCE</span>
+            <span style="color: #55ff55; font-size: 16px; border: 1px solid #55ff55; padding: 2px 6px; border-radius: 3px;">LOAD COMPLETED</span>
+        </div>
+        <div class="save-details" style="color: #aaaaaa; margin-top: 10px; font-size: 18px; line-height: 1.4;">
+            • <strong style="color: #ffffff;" class="save-label">LOCATION:</strong> University of Florence <br>
+            • <strong style="color: #ffffff;" class="save-label">PLAY TIME:</strong> 2022 - 2024<br>
+            • <strong style="color: #ffffff;" class="save-label">LAST LOG:</strong> THE FERTILE STEPPE: COMPUTABILITY LOGIC AND THE DECIDABILITY OF ONE OF ITS FRAGMENTS. Supervisor: Pierluigi Minari. Co-supervisor: Andrea Cantini.
         </div>
     </div>
 
     <div class="save-slot" style="border: 2px solid #cc99ff; background-color: #050505; padding: 15px; margin-bottom: 12px; border-radius: 4px; box-shadow: 4px 4px 0px #220033;">
         <div style="display: flex; justify-content: space-between; align-items: center;">
-            <span class="save-header" style="color: #ff3366; font-size: 22px; font-weight: bold;">FILE 02: BSc CYBERSECURITY</span>
+            <span class="save-header" style="color: #ff3366; font-size: 22px; font-weight: bold;">FILE 01: BSc PHILOSOPHY</span>
             <span style="color: #55ff55; font-size: 16px; border: 1px solid #55ff55; padding: 2px 6px; border-radius: 3px;">LOAD COMPLETED</span>
         </div>
         <div class="save-details" style="color: #aaaaaa; margin-top: 10px; font-size: 18px; line-height: 1.4;">
-            • <strong style="color: #ffffff;" class="save-label">LOCATION:</strong> Your Previous University<br>
-            • <strong style="color: #ffffff;" class="save-label">PLAY TIME:</strong> 2020 - 2024<br>
-            • <strong style="color: #ffffff;" class="save-label">CURRENT OBJECTIVE:</strong> Network Security Foundations & Computability Logic
+            • <strong style="color: #ffffff;" class="save-label">LOCATION:</strong> University of Florence <br>
+            • <strong style="color: #ffffff;" class="save-label">PLAY TIME:</strong> 2019 - 2022 <br>
+            • <strong style="color: #ffffff;" class="save-label">LAST LOG:</strong> "THE ELEGANT VERSATILE BRAIN": A LOGICAL AND PHILOSOPHICAL TAKE ON THE UNIVERSAL TURING MACHINE. Supervisor: Andrea Cantini. Co-supervisor: Sergio Bernini.
         </div>
     </div>
 
