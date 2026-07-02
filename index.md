@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <div style="font-size: 30px;">🚪</div>
         [ EMAIL ]
     </a>
-    <a href="YOUR_SCHOLAR_LINK" style="color: #cc99ff; text-decoration: none; text-align: center;">
+    <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=ACrTK9XNfJz_kbQZqUWRSu06PhieRV6jyxj8Lp5T5ebYtujT5Fb9ynraSrZF906P-fRLgB652-i2XOpF9MEl7w&user=byBWnlAAAAAJ" style="color: #cc99ff; text-decoration: none; text-align: center;">
         <div style="font-size: 30px;">👁️</div>
         [ SCHOLAR ]
     </a>
