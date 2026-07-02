@@ -222,6 +222,6 @@ document.addEventListener("DOMContentLoaded", function() {
     </a>
     <a href="YOUR_LINKEDIN_LINK" style="color: #cc99ff; text-decoration: none; text-align: center;">
         <div style="font-size: 30px;">💼</div>
-        [ LINKEDIN ]
+        [ META ]
     </a>
 </div>
