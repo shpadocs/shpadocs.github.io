@@ -12,7 +12,7 @@ Currently a PhD student at [IMT School for Advanced Studies Lucca](https://www.i
     <div class="save-slot" style="border: 2px solid #cc99ff; background-color: #050505; padding: 15px; margin-bottom: 12px; border-radius: 4px; box-shadow: 4px 4px 0px #220033;">
         <div style="display: flex; justify-content: space-between; align-items: center;">
             <span class="save-header" style="color: #ff3366; font-size: 22px; font-weight: bold;">FILE 03: PhD SYSTEMS SCIENCE (SOFTWARE QUALITY)</span>
-            <span style="color: #55ff55; font-size: 16px; border: 1px solid #55ff55; padding: 2px 6px; border-radius: 3px;">LOAD COMPLETED</span>
+            <span style="color: #55ff55; font-size: 16px; border: 1px solid #55ff55; padding: 2px 6px; border-radius: 3px;">STILL LOADING</span>
         </div>
         <div class="save-details" style="color: #aaaaaa; margin-top: 10px; font-size: 18px; line-height: 1.4;">
             • <strong style="color: #ffffff;" class="save-label">LOCATION:</strong> IMT School for Advanced Studies Lucca <br>
