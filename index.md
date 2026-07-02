@@ -123,9 +123,9 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 <div style="display: flex; justify-content: space-around; margin-top: 30px; font-family: 'VT323', monospace;">
-    <a href="mailto:your.email@example.com" style="color: #cc99ff; text-decoration: none; text-align: center;">
+    <a href="https://orcid.org/0009-0007-3169-4745" style="color: #cc99ff; text-decoration: none; text-align: center;">
         <div style="font-size: 30px;">🚪</div>
-        [ EMAIL ]
+        [ ORCID ]
     </a>
     <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=ACrTK9XNfJz_kbQZqUWRSu06PhieRV6jyxj8Lp5T5ebYtujT5Fb9ynraSrZF906P-fRLgB652-i2XOpF9MEl7w&user=byBWnlAAAAAJ" style="color: #cc99ff; text-decoration: none; text-align: center;">
         <div style="font-size: 30px;">👁️</div>
