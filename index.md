@@ -78,56 +78,104 @@ adversarial advantage, guaranteeing security against the MitM.
 let isAwake = false;
 
 document.getElementById("wake-up").addEventListener("click", function() {
-    
     let headers = document.querySelectorAll("h1, h2, h3");
+    
+    // Lore Box elements
+    let loreBox = document.getElementById("lore-box");
+    let loreTitle = document.getElementById("lore-title");
+    let loreSummaries = document.querySelectorAll(".lore-summary");
+    let loreContents = document.querySelectorAll(".lore-content");
+    
+    // Save Slot elements
+    let saveTitle = document.getElementById("save-title");
+    let saveSlots = document.querySelectorAll(".save-slot");
+    let saveHeaders = document.querySelectorAll(".save-header");
+    let saveLabels = document.querySelectorAll(".save-label");
+    let saveDetails = document.querySelectorAll(".save-details");
 
     if (!isAwake) {
-        
+        // --- WAKING UP (LIGHT MODE) ---
         document.body.style.backgroundColor = "#fafafa"; 
         document.body.style.color = "#000000"; 
         
+        headers.forEach(function(header) { header.style.color = "#000000"; });
+        if (saveTitle) { saveTitle.style.color = "#000000"; }
         
-        headers.forEach(function(header) {
-            header.style.color = "#000000";
+        // 1. Transform the Lore Box
+        if (loreBox) {
+            loreBox.style.backgroundColor = "#eeeeee";
+            loreBox.style.borderColor = "#888888";
+            loreBox.style.boxShadow = "5px 5px 0px #cccccc";
+        }
+        if (loreTitle) { loreTitle.style.color = "#000000"; }
+        loreSummaries.forEach(function(s) { s.style.color = "#b52243"; });
+        loreContents.forEach(function(c) { 
+            c.style.backgroundColor = "#ffffff";
+            c.style.color = "#333333";
+            c.querySelector("em").style.color = "#666666";
         });
-        
-        
+
+        // 2. Transform the Save Slots
+        saveSlots.forEach(function(slot) {
+            slot.style.backgroundColor = "#eeeeee";
+            slot.style.borderColor = "#888888";
+            slot.style.boxShadow = "4px 4px 0px #cccccc";
+        });
+        saveHeaders.forEach(function(sh) { sh.style.color = "#b52243"; });
+        saveLabels.forEach(function(sl) { sl.style.color = "#000000"; });
+        saveDetails.forEach(function(sd) { sd.style.color = "#444444"; });
+
+        // Button style changes
         document.body.style.fontFamily = "'VT323', monospace";
         document.body.style.fontSize = "18px";
-        
-        
         this.innerText = "Go to sleep.";
         this.style.border = "1px solid #cccccc";
         this.style.color = "#888888";
         this.style.backgroundColor = "#eeeeee";
         
-        isAwake = true; 
+        isAwake = true;
     } else {
-        
+        // --- GOING BACK TO SLEEP (DARK MODE) ---
         document.body.style.backgroundColor = "#050505"; 
         document.body.style.color = "#cc99ff"; 
         
+        headers.forEach(function(header) { header.style.color = "#ffffff"; });
+        if (saveTitle) { saveTitle.style.color = "#ffffff"; }
         
-        headers.forEach(function(header) {
-            header.style.color = "#ffffff";
+        // 1. Restore Lore Box
+        if (loreBox) {
+            loreBox.style.backgroundColor = "#050505";
+            loreBox.style.borderColor = "#cc99ff";
+            loreBox.style.boxShadow = "5px 5px 0px #220033";
+        }
+        if (loreTitle) { loreTitle.style.color = "#ff3366"; }
+        loreSummaries.forEach(function(s) { s.style.color = "#ffffaa"; });
+        loreContents.forEach(function(c) { 
+            c.style.backgroundColor = "#111111";
+            c.style.color = "#cc99ff";
+            c.querySelector("em").style.color = "#ffffff";
         });
-        
-        
+
+        // 2. Restore Save Slots
+        saveSlots.forEach(function(slot) {
+            slot.style.backgroundColor = "#050505";
+            slot.style.borderColor = "#cc99ff";
+            slot.style.boxShadow = "4px 4px 0px #220033";
+        });
+        saveHeaders.forEach(function(sh) { sh.style.color = "#ff3366"; });
+        saveLabels.forEach(function(sl) { sl.style.color = "#ffffff"; });
+        saveDetails.forEach(function(sd) { sd.style.color = "#aaaaaa"; });
+
+        // Button style changes
         this.innerText = "Pinch Cheek";
         this.style.border = "2px solid #ff3366";
         this.style.color = "#ff3366";
         this.style.backgroundColor = "#050505";
         
-        isAwake = false; 
+        isAwake = false;
     }
 });
 </script>
-<br><br><br>
-<hr>
-<div style="text-align: center;">
-  <span id="light-switch" style="font-size: 30px; cursor: pointer;">💡</span>
-  <p style="font-size: 14px;">(Don't turn off the lights)</p>
-</div>
 
 <script>
 document.getElementById("light-switch").addEventListener("click", function() {
