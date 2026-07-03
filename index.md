@@ -8,7 +8,7 @@ Currently a PhD student at [IMT School for Advanced Studies Lucca](https://www.i
 
 <div id="save-screen" style="font-family: 'VT323', monospace; margin: 30px 0;">
     
-    <h2 id="save-title" style="color: #ffffff; border-bottom: 2px dashed #444444; padding-bottom: 10px; margin-bottom: 15px;">💾 MEMORY CARD SAVE SLOTS</h2>
+    <h2 id="save-title" style="color: #ffffff; border-bottom: 2px dashed #444444; padding-bottom: 10px; margin-bottom: 15px;">💾 MEMORY CARD:</h2>
     <div class="save-slot" style="border: 2px solid #cc99ff; background-color: #050505; padding: 15px; margin-bottom: 12px; border-radius: 4px; box-shadow: 4px 4px 0px #220033;">
         <div style="display: flex; justify-content: space-between; align-items: center;">
             <span class="save-header" style="color: #ff3366; font-size: 22px; font-weight: bold;">FILE 03: PhD SYSTEMS SCIENCE (SOFTWARE QUALITY)</span>
