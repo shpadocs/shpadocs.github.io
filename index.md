@@ -278,37 +278,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<div id="cv-box" style="border: 4px double #ff3366; background-color: #000000; padding: 20px; font-family: 'VT323', monospace; margin: 35px 0; border-radius: 0px; box-shadow: 0 0 0 4px #000000, 6px 6px 0px #220033; position: relative;">
-    
-    <div style="display: flex; justify-content: space-between; border-bottom: 2px solid #333333; padding-bottom: 8px; margin-bottom: 15px; font-size: 16px; letter-spacing: 1px;">
-        <span id="cv-meta-left" style="color: #666666;">SYS_REC // FILE_NO_0999</span>
-        <span id="cv-meta-right" style="color: #ff3366; animation: blink 1.5s infinite steps(1);">● ACTIVE_EXTRACTOR</span>
-    </div>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
-        
-        <div id="cv-stats" style="border: 1px solid #333333; background: #050505; padding: 12px; min-width: 160px; font-size: 18px; line-height: 1.5;">
-            <div style="color: #ffffaa; border-bottom: 1px dashed #333333; padding-bottom: 4px; margin-bottom: 6px; font-weight: bold;">[ ITEM PROFILE ]</div>
-            <div class="cv-stat-row" style="color: #cc99ff;">CLASS: <span style="color: #ffffff; float: right;">LIFE_DATA</span></div>
-            <div class="cv-stat-row" style="color: #cc99ff;">SIZE: <span style="color: #ffffff; float: right;">244 KB</span></div>
-            <div class="cv-stat-row" style="color: #cc99ff;">THREAT: <span style="color: #55ff55; float: right;">0.00%</span></div>
-            <div class="cv-stat-row" style="color: #cc99ff;">WEIGHT: <span style="color: #ffffff; float: right;">0.00kg</span></div>
-        </div>
-
-        <div style="flex: 1; min-width: 250px;">
-            <h3 id="cv-title" style="color: #ffffff; margin: 0 0 10px 0; font-size: 24px; letter-spacing: 0.5px;">Spadoni.cv.pdf</h3>
-            <p id="cv-text" style="color: #aaaaaa; margin: 0 0 20px 0; font-size: 19px; line-height: 1.4; font-style: normal;">
-                A dense, static compilation of a person's attempts to organise computational logic. It contains no poetry, no answers and no music. It has travelled through several cold institutions. Extracting it to your local storage device will alter your current inventory space.
-            </p>
-        </div>
-    </div>
-
-    <div style="text-align: right; margin-top: 15px; border-top: 1px solid #222222; padding-top: 15px;">
-        <a href="assets/Curriculum_Vitae.pdf" download="Curriculum_Vitae.pdf" id="cv-button" style="display: inline-block; background-color: #000000; color: #ff3366; text-decoration: none; padding: 6px 16px; font-size: 22px; font-weight: bold; border: 2px solid #ff3366; cursor: pointer; transition: all 0.1s ease;">
-            ▶ DISCHARGE FILE_
-        </a>
-    </div>
-</div>
 
 <style>
 @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
