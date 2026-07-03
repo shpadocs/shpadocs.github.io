@@ -276,7 +276,7 @@ document.getElementById("light-switch").addEventListener("click", function() {
         <div style="flex: 1; min-width: 250px;">
             <h3 id="cv-title" style="color: #ffffff; margin: 0 0 10px 0; font-size: 24px; letter-spacing: 0.5px;">seevee !</h3>
             <p id="cv-text" style="color: #aaaaaa; margin: 0 0 20px 0; font-size: 19px; line-height: 1.4; font-style: normal;">
-                An institution-driven logbook of directions not to take. Extracting it to your local storage device will alter your current inventory space.
+                An institution-driven logbook of pursued directions. Extracting it to your local storage device will alter your current inventory space.
             </p>
         </div>
     </div>
