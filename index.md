@@ -270,7 +270,7 @@ document.getElementById("light-switch").addEventListener("click", function() {
             <div class="cv-stat-row" style="color: #cc99ff;">CLASS: <span style="color: #ffffff; float: right;">USELESS_DATA</span></div>
             <div class="cv-stat-row" style="color: #cc99ff;">SIZE: <span style="color: #ffffff; float: right;">244 KB</span></div>
             <div class="cv-stat-row" style="color: #cc99ff;">THREAT: <span style="color: #55ff55; float: right;">11.11%</span></div>
-            <div class="cv-stat-row" style="color: #cc99ff;">WEIGHT: <span style="color: #ffffff; float: right;">0.000000000000kg</span></div>
+            <div class="cv-stat-row" style="color: #cc99ff;">WEIGHT: <span style="color: #ffffff; float: right;">0.00000kg</span></div>
         </div>
 
         <div style="flex: 1; min-width: 250px;">
