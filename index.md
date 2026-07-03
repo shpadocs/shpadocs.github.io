@@ -326,7 +326,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </a>
     <a href="nowhere" style="color: #cc99ff; text-decoration: none; text-align: center;">
         <div style="font-size: 30px;">💼</div>
-        [ META ]
+        [ INTERFACE ]
     </a>
 </div>
 
