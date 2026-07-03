@@ -136,8 +136,16 @@ document.getElementById("wake-up").addEventListener("click", function() {
         saveLabels.forEach(function(sl) { sl.style.color = "#111111"; });
         saveDetails.forEach(function(sd) { sd.style.color = "#333333"; });
         saveStatuses.forEach(function(status) {
-            status.style.color = "#115511";
-            status.style.borderColor = "#115511";
+    if (status.innerText === "LOAD COMPLETED") {
+        // Colors for LOAD COMPLETED in light mode (e.g., dark blue)
+        status.style.color = "#0033cc"; 
+        status.style.borderColor = "#0033cc";
+    } else {
+        // Colors for STILL LOADING in light mode (dark green)
+        status.style.color = "#115511";
+        status.style.borderColor = "#115511";
+    }
+});
         });
 
         // 3. Transform CV Terminal Box (Minimalist Cinematic/Clinical Layout)
@@ -205,8 +213,16 @@ document.getElementById("wake-up").addEventListener("click", function() {
         saveLabels.forEach(function(sl) { sl.style.color = "#ffffff"; });
         saveDetails.forEach(function(sd) { sd.style.color = "#aaaaaa"; });
         saveStatuses.forEach(function(status) {
-            status.style.color = "#55ff55";
-            status.style.borderColor = "#55ff55";
+    if (status.innerText === "LOAD COMPLETED") {
+        // Colors for LOAD COMPLETED in dark mode (e.g., bright cyan)
+        status.style.color = "#00ffff"; 
+        status.style.borderColor = "#00ffff";
+    } else {
+        // Colors for STILL LOADING in dark mode (neon green)
+        status.style.color = "#55ff55";
+        status.style.borderColor = "#55ff55";
+    }
+});
         });
 
         // 3. Restore CV Terminal Box
