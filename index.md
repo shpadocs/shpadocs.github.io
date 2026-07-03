@@ -329,3 +329,22 @@ document.addEventListener("DOMContentLoaded", function() {
         [ META ]
     </a>
 </div>
+
+<br><br><br>
+<hr>
+<div style="text-align: center;">
+  <span id="light-switch" style="font-size: 30px; cursor: pointer;">💡</span>
+  <p style="font-size: 14px;">(Don't turn off the lights)</p>
+</div>
+
+<script>
+document.getElementById("light-switch").addEventListener("click", function() {
+    // There is a 50% chance Uboa appears!
+    if (Math.random() < 0.5) { 
+        document.body.style.backgroundColor = "white"; // Flashes white
+        document.body.innerHTML = "<div style='text-align:center; margin-top:20%; font-family:sans-serif;'><p>You shouldn't have done that.</p></div>";
+    } else {
+        document.body.style.backgroundColor = "#222"; // Just makes the room slightly darker
+    }
+});
+</script>
