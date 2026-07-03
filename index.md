@@ -136,7 +136,7 @@ document.getElementById("wake-up").addEventListener("click", function() {
         saveLabels.forEach(function(sl) { sl.style.color = "#111111"; });
         saveDetails.forEach(function(sd) { sd.style.color = "#333333"; });
         saveStatuses.forEach(function(status) {
-    if (status.innerText === "LOAD COMPLETED") {
+        if (status.innerText === "LOAD COMPLETED") {
         // Colors for LOAD COMPLETED in light mode (e.g., dark blue)
         status.style.color = "#0033cc"; 
         status.style.borderColor = "#0033cc";
