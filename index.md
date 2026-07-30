@@ -48,15 +48,27 @@ Currently a PhD student at [IMT School for Advanced Studies Lucca](https://www.i
 </div>
 
 ## Publications
+- [On decidability and bounded proofs in fragments of computability logic](https://hdl.handle.net/20.500.11771/43758)
+
+  Joint work with [Cosimo Perini Brogi](https://logicosimo.gitlab.io/).
+
+  Computability logic (CoL) reinterprets logic as a formal theory of dynamic interaction, modelling statements as computational games between predefined agents M and E. The present work tackles two open problems regarding CoL fragments CL15 and CL5. Firstly, we prove CL15 decidable: the potentially infinite search space from resource contraction can be pruned while preserving completeness, bounding contraction applications through a function of the cirquent’s complexity. Secondly, we develop a novel and purely syntactic proof that any derivable cirquent in the duplication-free version of CL5 admits a polynomial-size derivation, bounded by three structural limits (width, branch length and node size) in the bottom-up proof construction.
+
+ Presented at [Logic Colloquium 2026](https://logiccolloquium2026.github.io/). To appear in [The Bulletin of Symbolic Logic](https://www.cambridge.org/core/journals/bulletin-of-symbolic-logic).
+- [On protocol security via computability logic](https://hdl.handle.net/20.500.11771/43619)
+
+  Joint work with [Cosimo Perini Brogi](https://logicosimo.gitlab.io/) and [Rocco De Nicola](https://sysma.imtlucca.it/people/rocco-de-nicola).
+
+  Experience in cybersecurity shows that communication protocol design is exceptionally error-prone: security weaknesses often arise less from defects in cryptographic primitives than from flawed protocols, owing to the incorrect logical interplay among agents and potential adversaries in a network. Empirical evidence likewise suggests that `verification is only as sound as the language we used for it'. We propose computability logic (CoL) as a formal foundation for modelling, analysing and verifying secure communication protocols by treating specifications as interactive games between computational agents. We argue that CoL naturally captures protocol dynamics and formally identifies structural invariants that underlie classes of vulnerabilities and attacks. Moreover, its constructive character favours automated strategy extraction and synthesis of correct-by-construction executable artefacts from verification proofs while preserving the game-theoretic, interactive nature of protocols. We consider a CL4-based case study we presented at ITASEC 2026 to show the feasibility of our approach on representative protocol patterns, and outline theoretical and practical directions for extending the method to broader protocol families. This work in progress aims to advance logical verification methods for real-world secure communication.
+
+Presented at [Logic Colloquium 2026](https://logiccolloquium2026.github.io/). To appear in [The Bulletin of Symbolic Logic](https://www.cambridge.org/core/journals/bulletin-of-symbolic-logic).
+
 - [Cutting Out the Middle Man: A Game-Theoretic Analysis
 in Computability Logic of the Needham-Schroeder Protocol](https://ceur-ws.org/Vol-4198/paper57.pdf)
 
   Joint work with [Cosimo Perini Brogi](https://logicosimo.gitlab.io/).
 
-  Cryptographic protocols constitute the cornerstone of secure communication in open
-distributed systems. The systematic formal verification of such protocols gained prominence following Gavin Lowe’s 1995 discovery of a structural flaw in the classical Needham-Schroeder Public Key protocol from 1978. This paper presents a novel formal analysis of
-such protocol through Computability Logic (CoL), a game-theoretic semantics and reasoning system that models interaction between an honest agent and a hostile environment. By formalising the protocol’s execution as a game specified in the CoL fragment CL4, we demonstrate that the original vulnerability allows the environment to employ a successful Copycat Strategy isomorphic to the standard Man-in-the-Middle attack (MitM). Conversely, we prove that the revised protocol including Lowe’s fix effectively breaks this
-adversarial advantage, guaranteeing security against the MitM.
+  Cryptographic protocols constitute the cornerstone of secure communication in open distributed systems. The systematic formal verification of such protocols gained prominence following Gavin Lowe’s 1995 discovery of a structural flaw in the classical Needham-Schroeder Public Key protocol from 1978. This paper presents a novel formal analysis of such protocol through Computability Logic (CoL), a game-theoretic semantics and reasoning system that models interaction between an honest agent and a hostile environment. By formalising the protocol’s execution as a game specified in the CoL fragment CL4, we demonstrate that the original vulnerability allows the environment to employ a successful Copycat Strategy isomorphic to the standard Man-in-the-Middle attack (MitM). Conversely, we prove that the revised protocol including Lowe’s fix effectively breaks this adversarial advantage, guaranteeing security against the MitM.
 
   Presented at [ITASEC-SERICS 2026 - Joint National Conference on CyberSecurity](https://itasec.it/).
 
