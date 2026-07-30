@@ -68,6 +68,7 @@ adversarial advantage, guaranteeing security against the MitM.
 
 
 ## Conference talks
+- "A Decision Algorithm for the CL15 Fragment of Computability Logic", S. Spadoni. Presented at [Women in Logic 2026](https://womeninlogic.org/workshops/2026/) @ [FLoC'26: the 9th Federated Logic Conference](https://www.floc26.org/), 24 – 25 July 2026, Instituto Universitário de Lisboa, Portugal;
 - "On decidability and bounded proofs in fragments of computability logic", S. Spadoni, [Cosimo Perini Brogi](https://logicosimo.gitlab.io/). Presented at the [Logic Colloquium 2026](https://logiccolloquium2026.github.io/) (in conjunction with the British Logic Colloquium 2026), 29 June - 3 July 2026, Swansea University, Wales, UK;
 - "On protocol security via computability logic", [Cosimo Perini Brogi](https://logicosimo.gitlab.io/), S. Spadoni, [R. De Nicola](https://scholar.google.com/citations?user=Meb6JFkAAAAJ&hl=en). Presented at the [Logic Colloquium 2026](https://logiccolloquium2026.github.io/) (in conjunction with the British Logic Colloquium 2026), 29 June - 3 July 2026, Swansea University, Wales, UK;
 - "Cutting Out the Middle Man: A Game-Theoretic Analysis in Computability Logic of the Needham-Schroeder Protocol", [Cosimo Perini Brogi](https://logicosimo.gitlab.io/), S. Spadoni. Presented at [ITASEC-SERICS 2026 - Joint National Conference on CyberSecurity](https://itasec.it/), 9 – 13 February 2026, Cagliari, Facoltà di Ingegneria e Architettura, Piazza D’Armi, Sardinia, Italy.
